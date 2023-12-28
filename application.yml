@@ -11,4 +11,4 @@ eureka:
     prefer-ip-address: true
 
 test:
-  value: gitHub
+  value: gitHub1
