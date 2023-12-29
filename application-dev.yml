@@ -1,2 +1,14 @@
-active:
-  profile: dev
+server:
+  port: 0
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8765/eureka
+  instance:
+    prefer-ip-address: true
+
+test:
+  value: gitHub_dev
