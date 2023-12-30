@@ -12,4 +12,4 @@ spring:
       ddl-auto: update
 
 test:
-  value: gitHub_dev
+  value: gitHub_dev_updated
